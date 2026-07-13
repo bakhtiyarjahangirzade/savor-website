@@ -364,7 +364,9 @@
     renderHeader();
     try {
       const [siteResponse, productsResponse, recipesResponse] = await Promise.all([
-        fetch("content/site.json"), fetch("content/products.json"), fetch("content/recipes.json")
+        fetch("content/site.json", { cache: "no-store" }),
+        fetch("content/products.json", { cache: "no-store" }),
+        fetch("content/recipes.json", { cache: "no-store" })
       ]);
       if (![siteResponse, productsResponse, recipesResponse].every((response) => response.ok)) throw new Error("Content request failed");
       const [site, products, recipes] = await Promise.all([siteResponse.json(), productsResponse.json(), recipesResponse.json()]);
