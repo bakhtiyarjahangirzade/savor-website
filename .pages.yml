@@ -1,0 +1,347 @@
+media:
+  input: savor-site/assets/uploads
+  output: /savor-website/savor-site/assets/uploads
+  categories: [image]
+  rename: safe
+
+settings:
+  content:
+    merge: true
+  commit:
+    identity: app
+    templates:
+      create: "Savor: {path} əlavə edildi"
+      update: "Savor: {path} yeniləndi"
+      delete: "Savor: {path} silindi"
+      rename: "Savor: {oldPath} → {newPath}"
+
+components:
+  localized_string:
+    type: object
+    fields:
+      - name: az
+        label: Azərbaycan
+        type: string
+        required: true
+      - name: ru
+        label: Русский
+        type: string
+        required: true
+      - name: en
+        label: English
+        type: string
+        required: true
+  localized_text:
+    type: object
+    fields:
+      - name: az
+        label: Azərbaycan
+        type: text
+        required: true
+      - name: ru
+        label: Русский
+        type: text
+        required: true
+      - name: en
+        label: English
+        type: text
+        required: true
+  localized_image:
+    type: object
+    description: Hər dil üçün eyni və ya fərqli şəkil seçə bilərsiniz.
+    fields:
+      - name: az
+        label: Azərbaycan şəkli
+        type: image
+      - name: ru
+        label: Русское изображение
+        type: image
+      - name: en
+        label: English image
+        type: image
+
+content:
+  - name: pages
+    label: Səhifələr və əlaqə
+    type: file
+    path: savor-site/content/site.json
+    format: json
+    fields:
+      - name: settings
+        label: Ümumi məlumatlar
+        type: object
+        fields:
+          - name: siteName
+            label: Marka adı
+            type: string
+            required: true
+          - name: phone
+            label: Telefon
+            type: string
+            description: Boş saxlanarsa saytda göstərilmir.
+          - name: email
+            label: E-poçt
+            type: string
+            description: Boş saxlanarsa saytda göstərilmir.
+          - name: footerText
+            label: Footer mətni
+            component: localized_text
+      - name: home
+        label: Ana səhifə
+        type: object
+        fields:
+          - name: hero
+            label: Giriş sahəsi
+            type: object
+            fields:
+              - name: eyebrow
+                label: Kiçik başlıq
+                component: localized_string
+              - name: title
+                label: Əsas başlıq
+                component: localized_string
+              - name: description
+                label: Açıqlama
+                component: localized_text
+              - name: image
+                label: Giriş şəkli
+                component: localized_image
+              - name: imageAlt
+                label: Şəkil açıqlaması
+                component: localized_string
+          - name: story
+            label: Qısa marka hekayəsi
+            type: object
+            fields:
+              - name: eyebrow
+                label: Kiçik başlıq
+                component: localized_string
+              - name: title
+                label: Başlıq
+                component: localized_string
+              - name: text
+                label: Mətn
+                component: localized_text
+          - name: highlights
+            label: Rəqəmli üstünlüklər
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{value} — {index}"
+            fields:
+              - name: value
+                label: Rəqəm / dəyər
+                type: string
+                required: true
+              - name: label
+                label: Açıqlama
+                component: localized_string
+      - name: recipesPage
+        label: Reseptlər səhifəsi
+        type: object
+        fields:
+          - name: eyebrow
+            label: Kiçik başlıq
+            component: localized_string
+          - name: title
+            label: Başlıq
+            component: localized_string
+          - name: intro
+            label: Giriş mətni
+            component: localized_text
+      - name: about
+        label: Haqqımızda səhifəsi
+        type: object
+        fields:
+          - name: eyebrow
+            label: Kiçik başlıq
+            component: localized_string
+          - name: title
+            label: Əsas başlıq
+            component: localized_string
+          - name: intro
+            label: Giriş mətni
+            component: localized_text
+          - name: storyTitle
+            label: Hekayə başlığı
+            component: localized_string
+          - name: storyText
+            label: Hekayə mətni
+            component: localized_text
+          - name: image
+            label: Haqqımızda şəkli
+            component: localized_image
+          - name: values
+            label: Dəyərlər
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "Dəyər {index}"
+            fields:
+              - name: title
+                label: Başlıq
+                component: localized_string
+              - name: text
+                label: Mətn
+                component: localized_text
+      - name: buy
+        label: Haradan almaq olar səhifəsi
+        type: object
+        fields:
+          - name: eyebrow
+            label: Kiçik başlıq
+            component: localized_string
+          - name: title
+            label: Əsas başlıq
+            component: localized_string
+          - name: intro
+            label: Giriş mətni
+            component: localized_text
+          - name: retailTitle
+            label: Pərakəndə başlığı
+            component: localized_string
+          - name: retailText
+            label: Pərakəndə mətni
+            component: localized_text
+          - name: wholesaleTitle
+            label: Topdan satış başlığı
+            component: localized_string
+          - name: wholesaleText
+            label: Topdan satış mətni
+            component: localized_text
+          - name: contactPlaceholder
+            label: Əlaqə məlumatı yoxdursa mətn
+            component: localized_text
+          - name: locations
+            label: Satış nöqtələri
+            type: object
+            list:
+              collapsible:
+                collapsed: true
+                summary: "{name}"
+            fields:
+              - name: name
+                label: Mağaza / şəbəkə adı
+                type: string
+                required: true
+              - name: address
+                label: Ünvan
+                type: string
+
+  - name: products
+    label: Məhsullar
+    type: file
+    path: savor-site/content/products.json
+    format: json
+    list: true
+    fields:
+      - name: slug
+        label: URL adı
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9-]+$"
+          message: Yalnız kiçik hərf, rəqəm və tire istifadə edin.
+      - name: order
+        label: Sıra
+        type: number
+        required: true
+      - name: featured
+        label: Ana səhifədə önə çıxar
+        type: boolean
+      - name: weight
+        label: Çəki
+        type: string
+        required: true
+      - name: name
+        label: Məhsul adı
+        component: localized_string
+      - name: shortDescription
+        label: Qısa açıqlama
+        component: localized_text
+      - name: description
+        label: Tam açıqlama
+        component: localized_text
+      - name: bestFor
+        label: Hansı istifadə üçün
+        component: localized_string
+      - name: image
+        label: Məhsul şəkli
+        component: localized_image
+
+  - name: recipes
+    label: Reseptlər
+    type: file
+    path: savor-site/content/recipes.json
+    format: json
+    list: true
+    fields:
+      - name: slug
+        label: URL adı
+        type: string
+        required: true
+        pattern:
+          regex: "^[a-z0-9-]+$"
+          message: Yalnız kiçik hərf, rəqəm və tire istifadə edin.
+      - name: featured
+        label: Ana səhifədə göstər
+        type: boolean
+      - name: category
+        label: Kateqoriya
+        component: localized_string
+      - name: title
+        label: Resept adı
+        component: localized_string
+      - name: intro
+        label: Qısa açıqlama
+        component: localized_text
+      - name: prepMinutes
+        label: Hazırlıq vaxtı (dəqiqə)
+        type: number
+        required: true
+      - name: cookMinutes
+        label: Bişirmə vaxtı (dəqiqə)
+        type: number
+        required: true
+      - name: image
+        label: Resept şəkli
+        component: localized_image
+      - name: ingredients
+        label: İnqrediyentlər
+        type: object
+        fields:
+          - name: az
+            label: Azərbaycan
+            type: string
+            list: true
+          - name: ru
+            label: Русский
+            type: string
+            list: true
+          - name: en
+            label: English
+            type: string
+            list: true
+      - name: steps
+        label: Hazırlanma addımları
+        type: object
+        fields:
+          - name: az
+            label: Azərbaycan
+            type: text
+            list: true
+          - name: ru
+            label: Русский
+            type: text
+            list: true
+          - name: en
+            label: English
+            type: text
+            list: true
+      - name: productSlugs
+        label: Tövsiyə edilən məhsulların URL adları
+        type: string
+        list: true
+        description: Məsələn savor-butter-500g
