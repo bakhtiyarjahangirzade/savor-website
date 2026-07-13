@@ -1,0 +1,65 @@
+[
+  {
+    "slug": "golden-butter-pancakes",
+    "featured": true,
+    "category": { "az": "Səhər yeməyi", "ru": "Завтрак", "en": "Breakfast" },
+    "title": { "az": "Qızılı yağlı pankeyklər", "ru": "Золотистые панкейки с маслом", "en": "Golden butter pancakes" },
+    "intro": { "az": "Kənarları qızılı, içi yumşaq və üzərində yavaş-yavaş əriyən Savor kərə yağı.", "ru": "Золотистые края, мягкая середина и тающее сверху сливочное масло Savor.", "en": "Golden edges, a soft center and Savor butter melting slowly on top." },
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "image": { "az": "assets/recipe-pancakes.svg", "ru": "assets/recipe-pancakes.svg", "en": "assets/recipe-pancakes.svg" },
+    "ingredients": {
+      "az": ["200 q un", "2 x.q. şəkər", "2 ç.q. qabartma tozu", "1 çimdik duz", "250 ml süd", "1 yumurta", "50 q əridilmiş Savor kərə yağı", "Süfrəyə vermək üçün əlavə Savor və bal"],
+      "ru": ["200 г муки", "2 ст. л. сахара", "2 ч. л. разрыхлителя", "1 щепотка соли", "250 мл молока", "1 яйцо", "50 г растопленного масла Savor", "Дополнительно Savor и мед для подачи"],
+      "en": ["200 g flour", "2 tbsp sugar", "2 tsp baking powder", "1 pinch salt", "250 ml milk", "1 egg", "50 g melted Savor butter", "Extra Savor and honey to serve"]
+    },
+    "steps": {
+      "az": ["Un, şəkər, qabartma tozu və duzu böyük qabda qarışdırın.", "Ayrı qabda südü, yumurtanı və əridilmiş Savor kərə yağını çalın.", "Maye qarışığı quru qarışığa əlavə edin və yalnız birləşənədək qarışdırın.", "Tavanı orta odda qızdırın, azca Savor ilə yağlayın və hər pankeyki hər tərəfdən 1–2 dəqiqə bişirin.", "İsti pankeyklərin üzərinə Savor və bal əlavə edib süfrəyə verin."],
+      "ru": ["Смешайте в большой миске муку, сахар, разрыхлитель и соль.", "Отдельно взбейте молоко, яйцо и растопленное масло Savor.", "Влейте жидкую смесь в сухую и перемешайте только до объединения.", "Разогрейте сковороду на среднем огне, слегка смажьте Savor и готовьте каждый панкейк по 1–2 минуты с каждой стороны.", "Подавайте горячими с маслом Savor и медом."],
+      "en": ["Mix the flour, sugar, baking powder and salt in a large bowl.", "Whisk the milk, egg and melted Savor butter in a separate bowl.", "Add the wet mixture to the dry and stir just until combined.", "Warm a pan over medium heat, lightly grease with Savor and cook each pancake for 1–2 minutes per side.", "Serve warm with extra Savor and honey."]
+    },
+    "productSlugs": ["savor-butter-200g", "savor-butter-500g"]
+  },
+  {
+    "slug": "herb-butter-potatoes",
+    "featured": true,
+    "category": { "az": "Yan yemək", "ru": "Гарнир", "en": "Side dish" },
+    "title": { "az": "Ətirli yağlı soba kartofu", "ru": "Запеченный картофель с ароматным маслом", "en": "Herb butter roast potatoes" },
+    "intro": { "az": "Xırtıldayan kartof, təzə göyərti və zəngin Savor dadı ilə asan süfrə sevimlisi.", "ru": "Хрустящий картофель, свежая зелень и насыщенный вкус Savor — простой фаворит для любого стола.", "en": "Crisp potatoes, fresh herbs and rich Savor flavor make an easy table favorite." },
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "image": { "az": "assets/recipe-potatoes.svg", "ru": "assets/recipe-potatoes.svg", "en": "assets/recipe-potatoes.svg" },
+    "ingredients": {
+      "az": ["1 kq xırda kartof", "80 q Savor kərə yağı", "2 diş sarımsaq", "1 x.q. doğranmış cəfəri", "1 ç.q. rozmarin", "Duz və qara istiot"],
+      "ru": ["1 кг мелкого картофеля", "80 г масла Savor", "2 зубчика чеснока", "1 ст. л. рубленой петрушки", "1 ч. л. розмарина", "Соль и черный перец"],
+      "en": ["1 kg baby potatoes", "80 g Savor butter", "2 garlic cloves", "1 tbsp chopped parsley", "1 tsp rosemary", "Salt and black pepper"]
+    },
+    "steps": {
+      "az": ["Sobanı 210°C-yə qədər qızdırın və kartofları ikiyə bölün.", "Savor kərə yağını əridin, əzilmiş sarımsaq, rozmarin, duz və istiotla qarışdırın.", "Kartofları yağ qarışığında çevirin və soba listinə bir qat düzün.", "Qızılı və xırtıldayanadək 35–40 dəqiqə bişirin; yarısında bir dəfə çevirin.", "Cəfəri səpin və isti süfrəyə verin."],
+      "ru": ["Разогрейте духовку до 210°C и разрежьте картофель пополам.", "Растопите масло Savor и смешайте с чесноком, розмарином, солью и перцем.", "Перемешайте картофель с масляной смесью и выложите на противень в один слой.", "Запекайте 35–40 минут до золотистой корочки, один раз перевернув.", "Посыпьте петрушкой и подавайте горячим."],
+      "en": ["Heat the oven to 210°C and halve the potatoes.", "Melt the Savor butter and mix with crushed garlic, rosemary, salt and pepper.", "Toss the potatoes in the butter mixture and arrange in one layer on a baking tray.", "Roast for 35–40 minutes until golden and crisp, turning once halfway through.", "Scatter with parsley and serve hot."]
+    },
+    "productSlugs": ["savor-butter-500g", "savor-butter-1kg"]
+  },
+  {
+    "slug": "butter-croissant-toast",
+    "featured": true,
+    "category": { "az": "Branç", "ru": "Бранч", "en": "Brunch" },
+    "title": { "az": "Kərə yağlı kruassan tost", "ru": "Круассан-тост со сливочным маслом", "en": "Buttery croissant toast" },
+    "intro": { "az": "Kruassanın yumşaqlığı ilə qızılı tostun xırtıltısını birləşdirən sürətli branç resepti.", "ru": "Быстрый рецепт для бранча, сочетающий нежность круассана и хруст золотистого тоста.", "en": "A quick brunch recipe combining a soft croissant center with golden toast-like crunch." },
+    "prepMinutes": 8,
+    "cookMinutes": 10,
+    "image": { "az": "assets/recipe-croissant.svg", "ru": "assets/recipe-croissant.svg", "en": "assets/recipe-croissant.svg" },
+    "ingredients": {
+      "az": ["4 ədəd kruassan", "40 q Savor kərə yağı", "2 yumurta", "80 ml süd", "1 ç.q. vanil", "Bir çimdik darçın", "Giləmeyvə və şəkər kirşanı"],
+      "ru": ["4 круассана", "40 г масла Savor", "2 яйца", "80 мл молока", "1 ч. л. ванили", "Щепотка корицы", "Ягоды и сахарная пудра"],
+      "en": ["4 croissants", "40 g Savor butter", "2 eggs", "80 ml milk", "1 tsp vanilla", "A pinch of cinnamon", "Berries and icing sugar"]
+    },
+    "steps": {
+      "az": ["Kruassanları uzununa iki yerə bölün.", "Yumurta, süd, vanil və darçını dayaz qabda çalın.", "Kruassanları qarışığa qısa müddət batırın; çox islatmayın.", "Savor-u tavada orta odda əridin və kruassanları hər tərəfdən qızılı rəng alanadək bişirin.", "Giləmeyvə, şəkər kirşanı və kiçik bir parça Savor ilə süfrəyə verin."],
+      "ru": ["Разрежьте круассаны вдоль пополам.", "Взбейте яйца, молоко, ваниль и корицу в неглубокой миске.", "Быстро окуните круассаны в смесь, не давая им сильно размокнуть.", "Растопите Savor на сковороде на среднем огне и обжарьте круассаны до золотистого цвета с обеих сторон.", "Подавайте с ягодами, сахарной пудрой и небольшим кусочком Savor."],
+      "en": ["Slice the croissants in half lengthways.", "Whisk the eggs, milk, vanilla and cinnamon in a shallow bowl.", "Dip the croissants briefly in the mixture without soaking them.", "Melt Savor in a pan over medium heat and cook the croissants until golden on both sides.", "Serve with berries, icing sugar and a small extra piece of Savor."]
+    },
+    "productSlugs": ["savor-butter-200g", "savor-butter-500g"]
+  }
+]

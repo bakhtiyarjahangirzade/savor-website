@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "savor-butter-200g",
+    "order": 1,
+    "featured": false,
+    "weight": "200 g",
+    "name": { "az": "Savor kərə yağı 200 q", "ru": "Масло Savor 200 г", "en": "Savor Butter 200 g" },
+    "shortDescription": { "az": "Gündəlik səhər süfrəsi üçün rahat seçim.", "ru": "Удобный формат для ежедневного завтрака.", "en": "A handy choice for the everyday breakfast table." },
+    "description": { "az": "Kiçik ailələr, səhər yeməyi və gündəlik sendviçlər üçün rahat ölçü. Soyuducuda az yer tutur, təzə dadı süfrəyə asanlıqla gətirir.", "ru": "Удобный формат для небольшой семьи, завтраков и ежедневных бутербродов. Занимает мало места и легко приносит свежий сливочный вкус к столу.", "en": "A convenient size for smaller households, breakfasts and everyday sandwiches. It fits neatly in the fridge and brings fresh buttery flavor to the table." },
+    "bestFor": { "az": "Səhər yeməyi", "ru": "Завтрак", "en": "Breakfast" },
+    "image": { "az": "", "ru": "", "en": "" }
+  },
+  {
+    "slug": "savor-butter-500g",
+    "order": 2,
+    "featured": true,
+    "weight": "500 g",
+    "name": { "az": "Savor kərə yağı 500 q", "ru": "Масло Savor 500 г", "en": "Savor Butter 500 g" },
+    "shortDescription": { "az": "Ailə mətbəxinin universal ölçüsü.", "ru": "Универсальный формат для семейной кухни.", "en": "The versatile size for a family kitchen." },
+    "description": { "az": "Bişirmə, qızartma və süfrəyə vermək üçün balanslı ailə ölçüsü. Həftəlik mətbəx ehtiyacları üçün rahat və universal seçimdir.", "ru": "Сбалансированный семейный формат для готовки, выпечки и подачи к столу. Удобный универсальный выбор на всю неделю.", "en": "A balanced family size for cooking, baking and serving. A practical all-round choice for the week ahead." },
+    "bestFor": { "az": "Ailə mətbəxi", "ru": "Семейная кухня", "en": "Family cooking" },
+    "image": { "az": "", "ru": "", "en": "" }
+  },
+  {
+    "slug": "savor-butter-1kg",
+    "order": 3,
+    "featured": false,
+    "weight": "1 kg",
+    "name": { "az": "Savor kərə yağı 1 kq", "ru": "Масло Savor 1 кг", "en": "Savor Butter 1 kg" },
+    "shortDescription": { "az": "Tez-tez bişirənlər üçün sərfəli format.", "ru": "Практичный формат для тех, кто готовит часто.", "en": "A practical format for frequent cooks." },
+    "description": { "az": "Evdə tez-tez bişirənlər, xəmir işi sevənlər və kiçik tədbirlər üçün daha böyük həcm. Həm gündəlik yeməklərə, həm də desertlərə uyğundur.", "ru": "Увеличенный объем для тех, кто часто готовит дома, любит выпечку или принимает гостей. Подходит и для повседневных блюд, и для десертов.", "en": "A larger format for frequent home cooks, keen bakers and small gatherings. Equally useful for everyday meals and desserts." },
+    "bestFor": { "az": "Bişirmə və desert", "ru": "Готовка и десерты", "en": "Cooking & desserts" },
+    "image": { "az": "", "ru": "", "en": "" }
+  },
+  {
+    "slug": "savor-butter-2kg",
+    "order": 4,
+    "featured": false,
+    "weight": "2 kg",
+    "name": { "az": "Savor kərə yağı 2 kq", "ru": "Масло Savor 2 кг", "en": "Savor Butter 2 kg" },
+    "shortDescription": { "az": "Kiçik peşəkar mətbəxlər üçün.", "ru": "Для небольшой профессиональной кухни.", "en": "For smaller professional kitchens." },
+    "description": { "az": "Kafe, kiçik restoran və gündəlik istehsal üçün idarəolunan peşəkar ölçü. Sürətli iş axınında rahat istifadə olunur.", "ru": "Управляемый профессиональный формат для кафе, небольших ресторанов и ежедневного производства. Удобен в быстром рабочем ритме.", "en": "A manageable professional size for cafés, smaller restaurants and daily production. Easy to handle in a fast-moving kitchen." },
+    "bestFor": { "az": "Kafe və restoran", "ru": "Кафе и рестораны", "en": "Cafés & restaurants" },
+    "image": { "az": "", "ru": "", "en": "" }
+  },
+  {
+    "slug": "savor-butter-5kg",
+    "order": 5,
+    "featured": false,
+    "weight": "5 kg",
+    "name": { "az": "Savor kərə yağı 5 kq", "ru": "Масло Savor 5 кг", "en": "Savor Butter 5 kg" },
+    "shortDescription": { "az": "Yüksək həcmli mətbəx işi üçün.", "ru": "Для кухни с большим объемом работы.", "en": "For high-volume kitchen work." },
+    "description": { "az": "Restoran, otel, çörək və şirniyyat istehsalı üçün uyğun iri format. Həcmi böyük, istifadəsi isə praktikdir.", "ru": "Крупный практичный формат для ресторанов, отелей, пекарен и кондитерского производства.", "en": "A practical large format for restaurants, hotels, bakeries and pastry production." },
+    "bestFor": { "az": "Otel və istehsal", "ru": "Отели и производство", "en": "Hotels & production" },
+    "image": { "az": "", "ru": "", "en": "" }
+  },
+  {
+    "slug": "savor-butter-10kg",
+    "order": 6,
+    "featured": false,
+    "weight": "10 kg",
+    "name": { "az": "Savor kərə yağı 10 kq", "ru": "Масло Savor 10 кг", "en": "Savor Butter 10 kg" },
+    "shortDescription": { "az": "Peşəkar istehsal üçün maksimum format.", "ru": "Максимальный формат для профессионального производства.", "en": "The maximum format for professional production." },
+    "description": { "az": "Daimi və yüksək həcmli istehsal üçün nəzərdə tutulmuş ən böyük Savor formatı. Böyük mətbəxlərdə planlı və sərfəli istifadə üçün hazırlanıb.", "ru": "Самый большой формат Savor для стабильного производства большого объема. Создан для планируемой и экономичной работы крупной кухни.", "en": "The largest Savor format, designed for consistent high-volume production and efficient planning in busy professional kitchens." },
+    "bestFor": { "az": "İri istehsal", "ru": "Крупное производство", "en": "Large-scale production" },
+    "image": { "az": "", "ru": "", "en": "" }
+  }
+]

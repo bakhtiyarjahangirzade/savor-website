@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-label="Buttery croissant toast">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8ecd2"/><stop offset="1" stop-color="#d89c4b"/></linearGradient><linearGradient id="cr" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffd27b"/><stop offset="1" stop-color="#9d4d18"/></linearGradient><filter id="sh"><feDropShadow dx="0" dy="20" stdDeviation="17" flood-color="#643410" flood-opacity=".3"/></filter></defs>
+  <rect width="800" height="640" fill="url(#bg)"/>
+  <circle cx="400" cy="330" r="245" fill="#fffaf0" stroke="#fff" stroke-width="18" filter="url(#sh)"/>
+  <g filter="url(#sh)">
+    <path d="M188 355c52-108 124-165 212-165s160 57 212 165c20 42-16 86-62 71-36-12-62-31-82-58-42 25-94 25-136 0-20 27-46 46-82 58-46 15-82-29-62-71Z" fill="url(#cr)" stroke="#934513" stroke-width="6"/>
+    <path d="M276 249c39 23 61 64 56 119M365 194c37 42 49 91 35 146M524 249c-39 23-61 64-56 119M435 194c-37 42-49 91-35 146" fill="none" stroke="#f4c36b" stroke-linecap="round" stroke-width="15" opacity=".75"/>
+    <path d="M261 311c-30 12-51 29-64 52M539 311c30 12 51 29 64 52" fill="none" stroke="#7d3812" stroke-linecap="round" stroke-width="7" opacity=".45"/>
+  </g>
+  <rect x="353" y="333" width="94" height="59" rx="11" fill="#ffdc72" stroke="#c58b2c" stroke-width="3" transform="rotate(7 400 363)"/>
+  <g fill="#a82f2b"><circle cx="239" cy="205" r="18"/><circle cx="562" cy="442" r="17"/><circle cx="602" cy="226" r="14"/></g>
+  <g fill="#435a37"><path d="m225 188 17-19 7 25Z"/><path d="m550 427 16-20 8 25Z"/><path d="m591 213 15-18 7 23Z"/></g>
+</svg>

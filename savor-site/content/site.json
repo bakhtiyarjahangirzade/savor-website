@@ -1,0 +1,214 @@
+{
+  "settings": {
+    "siteName": "Savor",
+    "phone": "",
+    "email": "",
+    "footerText": {
+      "az": "Yadda qalan süfrələr üçün saf, zəngin və etibarlı kərə yağı.",
+      "ru": "Чистое, насыщенное и надежное сливочное масло для незабываемого стола.",
+      "en": "Pure, rich and dependable butter for memorable tables."
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": {
+        "az": "HƏR DADDA İSTİLİK",
+        "ru": "ТЕПЛО В КАЖДОМ ВКУСЕ",
+        "en": "WARMTH IN EVERY TASTE"
+      },
+      "title": {
+        "az": "Sadə anları ləzzətli edən kərə yağı.",
+        "ru": "Масло, которое делает простые моменты вкуснее.",
+        "en": "Butter that makes simple moments delicious."
+      },
+      "description": {
+        "az": "Səhər yeməyindən peşəkar mətbəxə qədər — Savor zəngin dadı və etibarlı keyfiyyəti hər süfrəyə gətirir.",
+        "ru": "От домашнего завтрака до профессиональной кухни — Savor приносит насыщенный вкус и стабильное качество к каждому столу.",
+        "en": "From the breakfast table to the professional kitchen, Savor brings rich taste and dependable quality to every meal."
+      },
+      "image": {
+        "az": "assets/hero-butter.svg",
+        "ru": "assets/hero-butter.svg",
+        "en": "assets/hero-butter.svg"
+      },
+      "imageAlt": {
+        "az": "Çörək və Savor kərə yağı ilə səhər süfrəsi",
+        "ru": "Завтрак с хлебом и сливочным маслом Savor",
+        "en": "Breakfast table with bread and Savor butter"
+      }
+    },
+    "story": {
+      "eyebrow": {
+        "az": "SAVOR HAQQINDA",
+        "ru": "О SAVOR",
+        "en": "ABOUT SAVOR"
+      },
+      "title": {
+        "az": "Bir inqrediyent. Saysız dadlı an.",
+        "ru": "Один ингредиент. Бесконечно много вкусных моментов.",
+        "en": "One ingredient. Countless delicious moments."
+      },
+      "text": {
+        "az": "Savor həm ev süfrəsi, həm də peşəkar mətbəx üçün düşünülmüş kərə yağı markasıdır. Fərqli çəki seçimləri ilə hər istifadəyə uyğun həll təqdim edir.",
+        "ru": "Savor — марка сливочного масла для домашнего стола и профессиональной кухни. Разные форматы подходят для любой задачи.",
+        "en": "Savor is a butter brand made for both home tables and professional kitchens. A thoughtful range of sizes fits every way you cook."
+      }
+    },
+    "highlights": [
+      {
+        "value": "6",
+        "label": {
+          "az": "ölçü seçimi",
+          "ru": "вариантов веса",
+          "en": "size options"
+        }
+      },
+      {
+        "value": "100%",
+        "label": {
+          "az": "kərə yağı",
+          "ru": "сливочное масло",
+          "en": "butter"
+        }
+      },
+      {
+        "value": "1",
+        "label": {
+          "az": "etibarlı dad",
+          "ru": "надежный вкус",
+          "en": "dependable taste"
+        }
+      }
+    ]
+  },
+  "recipesPage": {
+    "eyebrow": {
+      "az": "SAVOR İLƏ BİŞİR",
+      "ru": "ГОТОВЬТЕ С SAVOR",
+      "en": "COOK WITH SAVOR"
+    },
+    "title": {
+      "az": "Dadlı fikirlər, sadə addımlar.",
+      "ru": "Вкусные идеи, простые шаги.",
+      "en": "Delicious ideas, simple steps."
+    },
+    "intro": {
+      "az": "Gündəlik süfrədən xüsusi günlərə qədər Savor ilə hazırlaya biləcəyiniz asan reseptlər.",
+      "ru": "Простые рецепты с Savor для будничного стола и особых случаев.",
+      "en": "Easy recipes with Savor for everyday tables and special occasions."
+    }
+  },
+  "about": {
+    "eyebrow": {
+      "az": "SAVOR HEKAYƏSİ",
+      "ru": "ИСТОРИЯ SAVOR",
+      "en": "THE SAVOR STORY"
+    },
+    "title": {
+      "az": "Hər mətbəxə uyğun, hər süfrəyə yaxın.",
+      "ru": "Для каждой кухни, близко к каждому столу.",
+      "en": "Made for every kitchen, at home on every table."
+    },
+    "intro": {
+      "az": "Savor-un məqsədi sadədir: rahat seçilən ölçülərdə sabit keyfiyyətli, zəngin dadlı kərə yağı təqdim etmək.",
+      "ru": "Цель Savor проста: насыщенное сливочное масло стабильного качества в удобных форматах.",
+      "en": "Savor has a simple purpose: rich, dependable butter in sizes that are easy to choose."
+    },
+    "storyTitle": {
+      "az": "Kiçik səhər yeməyindən böyük mətbəxə qədər.",
+      "ru": "От небольшого завтрака до большой кухни.",
+      "en": "From a small breakfast to a busy kitchen."
+    },
+    "storyText": {
+      "az": "Savor məhsul xətti fərqli reseptlərdən çox fərqli istifadə miqdarlarına cavab verir. 200 qramlıq ev paketi də, 10 kiloqramlıq peşəkar format da eyni tanış Savor düşüncəsini daşıyır: rahatlıq, dad və etibar.",
+      "ru": "Линейка Savor отвечает не столько разным рецептам, сколько разным объемам использования. И домашняя пачка 200 г, и профессиональный формат 10 кг несут одну идею Savor: удобство, вкус и доверие.",
+      "en": "The Savor range is designed around how much butter people need, not unnecessary varieties. From a 200 g home pack to a 10 kg professional format, each one carries the same idea: convenience, flavor and trust."
+    },
+    "image": {
+      "az": "assets/savor-logo-standard.svg",
+      "ru": "assets/savor-logo-standard.svg",
+      "en": "assets/savor-logo-standard.svg"
+    },
+    "values": [
+      {
+        "title": {
+          "az": "Sabit keyfiyyət",
+          "ru": "Стабильное качество",
+          "en": "Dependable quality"
+        },
+        "text": {
+          "az": "Hər paketdə tanış dad və etibar edə biləcəyiniz nəticə.",
+          "ru": "Знакомый вкус и предсказуемый результат в каждой упаковке.",
+          "en": "Familiar taste and a result you can trust in every pack."
+        }
+      },
+      {
+        "title": {
+          "az": "Rahat seçim",
+          "ru": "Удобный выбор",
+          "en": "Easy choice"
+        },
+        "text": {
+          "az": "Ev, kafe, restoran və istehsal üçün uyğun çəki formatları.",
+          "ru": "Форматы для дома, кафе, ресторана и производства.",
+          "en": "Practical sizes for homes, cafés, restaurants and production."
+        }
+      },
+      {
+        "title": {
+          "az": "Saf ləzzət",
+          "ru": "Чистый вкус",
+          "en": "Pure pleasure"
+        },
+        "text": {
+          "az": "Resepti kölgədə qoymadan onun dadını tamamlayan zəngin kərə yağı.",
+          "ru": "Насыщенное масло, которое дополняет блюдо, не скрывая его вкус.",
+          "en": "Rich butter that completes a recipe without overpowering it."
+        }
+      }
+    ]
+  },
+  "buy": {
+    "eyebrow": {
+      "az": "SİZƏ ƏN YAXIN SAVOR",
+      "ru": "SAVOR РЯДОМ С ВАМИ",
+      "en": "FIND SAVOR NEAR YOU"
+    },
+    "title": {
+      "az": "Savor-u haradan almaq olar?",
+      "ru": "Где купить Savor?",
+      "en": "Where can you buy Savor?"
+    },
+    "intro": {
+      "az": "Pərakəndə satış nöqtələrimizi izləyin və biznesiniz üçün topdan sifariş barədə bizimlə əlaqə saxlayın.",
+      "ru": "Найдите розничные точки или свяжитесь с нами по вопросам оптовых заказов для вашего бизнеса.",
+      "en": "Find a retail location or contact us about wholesale orders for your business."
+    },
+    "retailTitle": {
+      "az": "Mağazalarda Savor",
+      "ru": "Savor в магазинах",
+      "en": "Savor in stores"
+    },
+    "retailText": {
+      "az": "Satış şəbəkələri təsdiqləndikcə bu siyahıya əlavə ediləcək.",
+      "ru": "Подтвержденные торговые сети будут добавляться в этот список.",
+      "en": "Confirmed retail partners will be added to this list."
+    },
+    "wholesaleTitle": {
+      "az": "Biznesiniz üçün Savor",
+      "ru": "Savor для вашего бизнеса",
+      "en": "Savor for your business"
+    },
+    "wholesaleText": {
+      "az": "Kafe, restoran, otel, çörək və şirniyyat istehsalı üçün 2 kq-dan 10 kq-a qədər peşəkar formatlar mövcuddur.",
+      "ru": "Для кафе, ресторанов, отелей, пекарен и кондитерских доступны профессиональные форматы от 2 до 10 кг.",
+      "en": "Professional formats from 2 kg to 10 kg are available for cafés, restaurants, hotels, bakeries and pastry production."
+    },
+    "contactPlaceholder": {
+      "az": "Telefon və e-poçt məlumatlarını admin panelindən əlavə edin.",
+      "ru": "Добавьте телефон и электронную почту в панели администратора.",
+      "en": "Add a phone number and email address from the admin panel."
+    },
+    "locations": []
+  }
+}

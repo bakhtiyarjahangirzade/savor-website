@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-label="Herb butter roast potatoes">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5e5be"/><stop offset="1" stop-color="#9eb17c"/></linearGradient><linearGradient id="pot" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#ffd47b"/><stop offset="1" stop-color="#b46622"/></linearGradient><filter id="sh"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#3c2b12" flood-opacity=".3"/></filter></defs>
+  <rect width="800" height="640" fill="url(#bg)"/>
+  <ellipse cx="400" cy="342" rx="280" ry="230" fill="#4b5b3a" filter="url(#sh)"/>
+  <ellipse cx="400" cy="326" rx="245" ry="196" fill="#f5edda" stroke="#d5b873" stroke-width="8"/>
+  <g fill="url(#pot)" stroke="#a65a1c" stroke-width="4" filter="url(#sh)">
+    <path d="M245 245c33-39 98-23 101 30 3 47-39 82-83 63-42-19-48-57-18-93Z"/>
+    <path d="M369 202c34-42 104-25 108 30 3 49-41 87-87 66-44-20-51-61-21-96Z"/>
+    <path d="M500 261c38-37 100-14 97 40-3 48-50 79-91 54-39-24-39-63-6-94Z"/>
+    <path d="M318 354c37-37 101-15 99 39-3 49-48 82-91 57-41-23-42-64-8-96Z"/>
+    <path d="M455 389c34-42 103-25 108 29 4 49-40 88-86 68-44-20-52-60-22-97Z"/>
+  </g>
+  <g fill="#fff2a8" opacity=".75"><ellipse cx="279" cy="267" rx="34" ry="17" transform="rotate(-21 279 267)"/><ellipse cx="411" cy="229" rx="35" ry="17" transform="rotate(-16 411 229)"/><ellipse cx="539" cy="289" rx="33" ry="16" transform="rotate(-18 539 289)"/></g>
+  <g fill="none" stroke="#435a37" stroke-linecap="round" stroke-width="7"><path d="m211 411 83-94M230 389l-5-41M252 366l38 1M566 190l-65 80M547 213l36 1M527 237l-1-36"/></g>
+</svg>

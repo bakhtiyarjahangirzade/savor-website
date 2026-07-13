@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 680" role="img" aria-labelledby="title desc">
+  <title id="title">Savor butter breakfast</title>
+  <desc id="desc">A warm illustrated breakfast setting with bread, butter and a Savor package.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff8e7"/><stop offset="1" stop-color="#e3b765"/></linearGradient>
+    <linearGradient id="pack" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffaf0"/><stop offset=".5" stop-color="#f6e5bd"/><stop offset="1" stop-color="#d39d3d"/></linearGradient>
+    <linearGradient id="bread" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e9aa55"/><stop offset="1" stop-color="#9a541f"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#603711" flood-opacity=".24"/></filter>
+  </defs>
+  <ellipse cx="420" cy="575" rx="335" ry="54" fill="#754515" opacity=".13"/>
+  <circle cx="404" cy="348" r="255" fill="url(#bg)" stroke="#fff" stroke-width="16" filter="url(#shadow)"/>
+  <circle cx="404" cy="348" r="205" fill="#fffaf0" stroke="#d5a34b" stroke-width="3" opacity=".92"/>
+  <g filter="url(#shadow)" transform="rotate(-8 285 315)">
+    <path d="M142 333c3-105 55-169 142-169s140 65 141 169c0 40-26 68-65 68H207c-39 0-66-28-65-68Z" fill="url(#bread)"/>
+    <path d="M165 322c4-82 47-132 119-132s116 51 118 132c0 25-18 44-44 44H209c-26 0-45-19-44-44Z" fill="#f8d28b"/>
+    <path d="m210 244 28 28M277 225l18 39M346 246l-27 29" fill="none" stroke="#c48135" stroke-linecap="round" stroke-width="8" opacity=".65"/>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(7 525 385)">
+    <rect x="401" y="299" width="275" height="176" rx="23" fill="url(#pack)" stroke="#9d6827" stroke-width="3"/>
+    <path d="M427 299h34v176h-34zM625 299h24v176h-24z" fill="#c89937" opacity=".38"/>
+    <ellipse cx="538" cy="385" rx="76" ry="52" fill="#fff9ed" stroke="#c89937" stroke-width="3"/>
+    <text x="538" y="400" fill="#c89937" font-family="Georgia,serif" font-size="54" font-style="italic" text-anchor="middle">Savor</text>
+    <text x="643" y="450" fill="#7e4a21" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="end">500 g</text>
+  </g>
+  <g filter="url(#shadow)" transform="rotate(-5 390 463)">
+    <rect x="318" y="421" width="151" height="78" rx="15" fill="#ffd86c" stroke="#c58c2d" stroke-width="3"/>
+    <path d="M340 446c28-13 58-13 91 1" fill="none" stroke="#fff5bb" stroke-linecap="round" stroke-width="8" opacity=".8"/>
+  </g>
+  <g fill="none" stroke="#435a37" stroke-linecap="round" stroke-width="7">
+    <path d="M618 149c-38 28-57 67-55 118"/>
+    <path d="M607 173c27-10 48-5 64 15-31 10-51 5-64-15ZM581 209c-25-15-48-15-68 2 27 18 49 17 68-2Z" fill="#6e814f" stroke="none"/>
+  </g>
+  <circle cx="136" cy="499" r="22" fill="#c89937" opacity=".35"/>
+  <circle cx="683" cy="508" r="14" fill="#7e4a21" opacity=".25"/>
+</svg>
