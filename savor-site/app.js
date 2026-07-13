@@ -247,7 +247,7 @@
           </div>
           <div class="footer-bottom">
             <span>© ${year} Savor. ${esc(U().rights)}</span>
-            <a class="admin-link" href="admin.html">${esc(U().admin)}</a>
+            <a class="admin-link" href="admin/">${esc(U().admin)}</a>
           </div>
         </div>
       </footer>`;
@@ -370,7 +370,21 @@
         fetch("content/recipes.json", { cache: "no-store" })
       ]);
       if (![siteResponse, productsResponse, recipesResponse].every((response) => response.ok)) throw new Error("Content request failed");
-      const [site, products, recipes] = await Promise.all([siteResponse.json(), productsResponse.json(), recipesResponse.json()]);
+      let [site, products, recipes] = await Promise.all([siteResponse.json(), productsResponse.json(), recipesResponse.json()]);
+      if (window.SavorCMS) {
+        try {
+          const [savedSite, savedProducts, savedRecipes] = await Promise.all([
+            window.SavorCMS.document("site"),
+            window.SavorCMS.document("products"),
+            window.SavorCMS.document("recipes")
+          ]);
+          site = savedSite || site;
+          products = savedProducts || products;
+          recipes = savedRecipes || recipes;
+        } catch (cmsError) {
+          console.warn("Preview content could not be loaded; using bundled content.", cmsError);
+        }
+      }
       renderFooter(site.settings);
       const routes = {
         home: () => renderHome(site, products, recipes),
