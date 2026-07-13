@@ -293,12 +293,13 @@
     const home = site.home;
     const featured = products.find((item) => item.featured) || products[0];
     const featuredRecipes = recipes.filter((item) => item.featured).slice(0, 3);
+    const heroImage = asset(local(home.hero.image)) || "assets/hero-butter.svg";
     setMeta(local(home.hero.title), local(home.hero.description));
     document.getElementById("main").innerHTML = `
-      <section class="hero">
+      <section class="hero" style="--hero-image:url('${esc(heroImage)}')">
         <div class="hero-inner">
           <div class="hero-copy fade-up"><p class="eyebrow">${esc(local(home.hero.eyebrow))}</p><h1>${esc(local(home.hero.title))}</h1><p class="lead">${esc(local(home.hero.description))}</p><div class="hero-actions"><a class="button button-primary" href="${href("products.html")}">${esc(U().discoverProducts)} <span aria-hidden="true">→</span></a><a class="button button-outline" href="${href("recipes.html")}">${esc(U().exploreRecipes)}</a></div></div>
-          <div class="hero-visual fade-up"><img src="${esc(asset(local(home.hero.image)) || "assets/hero-butter.svg")}" alt="${esc(local(home.hero.imageAlt))}" /><span class="hero-stamp">${esc(U().pureButter)}</span></div>
+          <span class="hero-stamp">${esc(U().pureButter)}</span>
         </div>
       </section>
       <section class="section"><div class="container"><div class="section-heading"><div><p class="eyebrow">SAVOR BUTTER</p><h2>${esc(U().ourProducts)}</h2></div><a class="text-link" href="${href("products.html")}">${esc(U().allProducts)} →</a></div><div class="product-grid">${products.slice(0, 3).map(productCard).join("")}</div></div></section>
