@@ -27,14 +27,14 @@
         "en": "From the breakfast table to the professional kitchen, Savor brings rich taste and dependable quality to every meal."
       },
       "image": {
-        "az": "assets/hero-butter.svg",
-        "ru": "assets/hero-butter.svg",
-        "en": "assets/hero-butter.svg"
+        "az": "assets/hero-cow.jpg",
+        "ru": "assets/hero-cow.jpg",
+        "en": "assets/hero-cow.jpg"
       },
       "imageAlt": {
-        "az": "Çörək və Savor kərə yağı ilə səhər süfrəsi",
-        "ru": "Завтрак с хлебом и сливочным маслом Savor",
-        "en": "Breakfast table with bread and Savor butter"
+        "az": "Yaşıl otlaqda otlayan süd inəyi",
+        "ru": "Молочная корова пасется на зеленом лугу",
+        "en": "Dairy cow grazing in a green meadow"
       }
     },
     "story": {

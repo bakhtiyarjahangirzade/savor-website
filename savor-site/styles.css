@@ -293,18 +293,31 @@ h3 { font-size: clamp(1.35rem, 2.2vw, 2rem); }
 
 .hero-actions { display: flex; flex-wrap: wrap; gap: 13px; }
 
-.hero-visual { position: relative; }
+.hero-visual {
+  position: relative;
+  isolation: isolate;
+}
 
 .hero-visual::before {
   position: absolute;
   z-index: -1;
-  inset: -8% -4% 5% 10%;
-  border-radius: 50% 45% 48% 52%;
-  background: rgba(255,255,255,.4);
+  inset: -3% -3% 3% 4%;
+  border-radius: 46% 46% 22% 38%;
+  background: rgba(255,255,255,.72);
   content: "";
 }
 
-.hero-visual img { width: 100%; max-height: 630px; object-fit: contain; filter: drop-shadow(0 30px 35px rgba(75,42,18,.2)); }
+.hero-visual img {
+  display: block;
+  width: 100%;
+  max-height: 630px;
+  aspect-ratio: 4 / 3;
+  border: 10px solid rgba(255,255,255,.88);
+  border-radius: 46% 46% 22% 38%;
+  object-fit: cover;
+  object-position: 57% center;
+  box-shadow: 0 30px 55px rgba(75,42,18,.22);
+}
 
 .hero-stamp {
   position: absolute;
